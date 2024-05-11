@@ -4,7 +4,7 @@ import javax.swing.JFrame;
 
 public class Main {
     public static void main(String[] args) {
-        JFrame window = new JFrame("Tetris");
+        JFrame window = new JFrame("JTetris");
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setResizable(false);
 
@@ -17,6 +17,5 @@ public class Main {
         window.setVisible(true);
 
         gp.launchGame();
-        // finished collisions mostly
     }
 }
